@@ -89,7 +89,7 @@ var short_paramstring = new RegExp (/^(sn|gi)?[a-z]{3}$/);
 
 if (short_paramstring.test(param))
  {
- document.write("<script src=\"video.js\"><\/script><br><table align=\"center\" width=\"680\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><table align=\"center\" width=\"650\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><script type=\"text\/javascript\" src=\"http://svideo.tom.ru/c/"+param+".js\"><\/script><\/td><\/tr><\/table><br><\/td><\/tr><\/table><br>");
+ document.write("<script src=\"video.js\"><\/script><br><table align=\"center\" width=\"680\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><table align=\"center\" width=\"650\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#FFFFFF\"><tr><td><script type=\"text\/javascript\" src=\"http://svideo.tom.ru/c/"+param+".js\" charset=\"Windows-1251\"><\/script><\/td><\/tr><\/table><br><\/td><\/tr><\/table><br>");
  }
  else
 if (long_paramstring.test(param))
