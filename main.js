@@ -98,7 +98,7 @@ if (long_paramstring.test(param))
  id = result[1];
  id = urldecode (id);
  id = decodeBase64 (id);
- id = Utf8.encode (id);
+ //id = Utf8.encode (id);
  var obj = JSON.parse(id);
  //var obj = JSON.parse(decodeBase64(urldecode(result[1])));
  if (((obj[5]=="") || (typeof obj[5]=='undefined')))
